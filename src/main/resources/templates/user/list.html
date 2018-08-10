@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/css/home.css"/>
+    <script src="/js/list.js"></script>
+    <meta charset="UTF-8"/>
+    <title>正人君子</title>
+</head>
+<body>
+<p class="login-title">people lies.</p>
+<h2>用户列表</h2>
+<div>
+    <ul>
+        <li th:each="user:${users}">
+            <span th:text="${user.id}"></span>-
+            <span th:text="${user.account}"></span>
+        </li>
+    </ul>
+</div>
+<div class="sign-background">
+    <div class="sign-input-block">
+        <div class="sign-input-text-back">
+            <input type="text" class="sign-input-text" name="account"
+                   value="RabbitQ"></input>
+        </div>
+        <div class="sign-button"><input type="button" name="submit_button"  value="Sign Up!" style="background: url('/images/glory/Sign-up-submit.png');
+        border-style: none; width:110px; height:41px; color: #fcfcfc;" ></input></div>
+    </div>
+
+</div>
+
+</body>
+<script>
+    <!--alert1();-->
+</script>
+</html>

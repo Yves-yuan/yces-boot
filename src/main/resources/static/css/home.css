@@ -1,0 +1,102 @@
+.login-title {
+    font-size: 30px;
+    color: red;
+
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+}
+
+.body-black {
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/glory/black-back.png");
+    background-size: 100%;
+}
+
+.login-background {
+    height: 1577px;
+    weight: 1345px;
+    background-image: url("/images/glory/black-back.png");
+}
+
+.sign-background {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("/images/glory/Sign-Up-background.gif");
+}
+
+.sign-input-block {
+    width: 308px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("/images/glory/Sign-Up-block.png");
+}
+
+.sign-input-text-back {
+    float: left;
+    position: relative;
+    width: 177px;
+    height: 34px;
+    top: 8px;
+    left: 10px;
+    background-image: url("/images/glory/Sign-Up-input-text.png");
+}
+
+.sign-input-text {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0px;
+    background: rgba(0, 0, 0, 0);
+    outline: none;
+    color: #fcfcfc;
+}
+
+.sign-button-div {
+    float: left;
+    position: relative;
+    width: 110px;
+    height: 41px;
+    top: 6px;
+    left: 10px;
+}
+
+.sign-button {
+    background: url('/images/glory/Sign-up-submit.png');
+    border-style: none;
+    width: 110px;
+    height: 41px;
+    color: #fcfcfc;
+    outline: none;
+    /*box-shadow:inset 0 -2px 2px #3b6caa, inset 2px 0 2px #3b6caa, inset -2px 0 2px #3b6caa;*/
+    cursor:hand;
+}
+.sign-button-highlight {
+    background: url('/images/glory/Sign-up-button-highlight.png');
+    border-style: none;
+    width: 110px;
+    height: 41px;
+    color: #fcfcfc;
+    outline: none;
+    cursor:hand;
+}
+
+.sign-button-highlight:active {
+    position:relative;
+    top:1px;
+}
+
