@@ -1,19 +1,22 @@
 .body-black {
-    width: 100%;
-    height: 100%;
-    background-image: url("/images/psychedelic/psy-back.png");
-    background-size: 100%;
+    background-image: url("/images/psychedelic/psy-back.png") ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
+.wrap{
+    position:absolute;
+    left:50%;
+    top:0%;
+    transform:translate(-50%,0%);
+    height:438px;
+    min-height:438px;
+    width:375px;
+}
 .login-plank {
-    width: 375px;
-    height: 438px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+    min-height: 438px;
+    min-weight: 375px;
+    margin:0;
     background-image: url("/images/psychedelic/sign-up-plank.png");
 }
 
