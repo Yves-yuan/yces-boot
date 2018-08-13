@@ -1,0 +1,145 @@
+.body-black {
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/psychedelic/psy-back.png");
+    background-size: 100%;
+}
+
+.login-plank {
+    width: 375px;
+    height: 438px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("/images/psychedelic/sign-up-plank.png");
+}
+
+.login-plank-head {
+    position: relative;
+    text-align: center;
+    line-height: 59px;
+    color: #fcfcfc;
+    width: 326px;
+    height: 59px;
+    left: 24px;
+    top: 21px;
+    background-image: url("/images/psychedelic/sign-up-plank-head.png");
+}
+
+.login-plank-head-close-div {
+    opacity: 1;
+    position: relative;
+    float: right;
+    width: 13px;
+    height: 13px;
+    top: 25px;
+    right: 20px;
+    background-image: url("/images/psychedelic/sign-up-plank-head-close.png");
+}
+
+.login-plank-head-close-div:hover {
+    cursor: hand;
+    opacity: 1;
+    position: relative;
+    float: right;
+    width: 13px;
+    height: 13px;
+    top: 25px;
+    right: 20px;
+    background-image: url("/images/psychedelic/sign-up-plank-head-close-highlight.png");
+}
+
+.login-plank-head-close {
+    opacity: 0;
+    width: 12px;
+    height: 13px;
+    outline: none;
+    border-style: none;
+}
+
+.login-plank-head-close:active {
+    position: relative;
+    top: 1px;
+}
+
+.login-input-light-div {
+    width: 243px;
+    height: 51px;
+    position: relative;
+    left: 65px;
+    color: #fcfcfc;
+    background-image: url("/images/psychedelic/acount-input.png");
+}
+
+.login-input-grey-div {
+    width: 246px;
+    height: 54px;
+    position: relative;
+    top: 100px;
+    left: 65px;
+    color: #fcfcfc;
+    background-image: url("/images/psychedelic/password-input.png");
+}
+
+.login-button-div {
+    width: 246px;
+    height: 54px;
+    position: relative;
+    left: 65px;
+    color: #fcfcfc;
+    background-image: url("/images/psychedelic/sign-up-button-psy.png");
+}
+.sign-button {
+    outline: none;
+    color: #fcfcfc;
+    background: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+.login-button-div:hover {
+    width: 246px;
+    height: 54px;
+    position: relative;
+    left: 65px;
+    color: #fcfcfc;
+    background-image: url("/images/psychedelic/sign-up-button-psy-highlight.png");
+}
+
+.sign-input-icon {
+    float: left;
+    width: 27px;
+    height: 24px;
+    position: relative;
+    top: 13px;
+    left: 15px;
+    background-image: url("/images/psychedelic/account-icon.png");
+}
+
+.sign-input-password-icon {
+    float: left;
+    width: 18px;
+    height: 24px;
+    position: relative;
+    top: 13px;
+    left: 19px;
+    background-image: url("/images/psychedelic/password-icon.png");
+}
+
+.sign-input-div {
+    float: left;
+    height: 51px;
+    position: relative;
+    top: 14px;
+    left: 25px;
+}
+
+.sign-input-text {
+    border: 0px;
+    background: rgba(0, 0, 0, 0);
+    outline: none;
+    color: #fcfcfc;
+}
+
+

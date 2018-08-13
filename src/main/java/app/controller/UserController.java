@@ -33,6 +33,6 @@ public class UserController {
 
     @RequestMapping("/login")
     public String login(Model model) {
-        return "/user/login";
+        return "/user/login-psy";
     }
 }
